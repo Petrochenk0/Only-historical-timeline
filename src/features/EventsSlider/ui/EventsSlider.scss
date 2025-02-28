@@ -1,0 +1,45 @@
+@import '../../../app/styles/variables.scss';
+
+.events-slider {
+  margin-top: 56px;
+
+  .events-swiper {
+    padding: 0 80px;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 40px;
+      height: 40px;
+      border: 1px solid rgba($text-primary, 0.2);
+      border-radius: 50%;
+      color: $primary-blue;
+
+      &:after {
+        font-size: 14px;
+      }
+
+      &:hover {
+        background: $primary-blue;
+        border-color: $primary-blue;
+        color: $white;
+      }
+    }
+  }
+
+  .event-card {
+    padding: 20px;
+
+    .event-year {
+      font-size: 25px;
+      font-weight: 400;
+      color: $primary-blue;
+      margin-bottom: 15px;
+    }
+
+    .event-description {
+      font-size: 20px;
+      line-height: 1.5;
+      color: $text-primary;
+    }
+  }
+}
