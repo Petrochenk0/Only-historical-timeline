@@ -18,81 +18,67 @@
 - GSAP
 - Swiper
 
-## Установка и запуск
+# Historical Timeline
 
-1. Клонируйте репозиторий:
-   \`\`\`bash
-   git clone [url-репозитория]
-   \`\`\`
+An interactive timeline showcasing significant historical events with a modern and engaging user interface.
 
-2. Перейдите в директорию проекта:
-   \`\`\`bash
-   cd historical-timeline
-   \`\`\`
+## 🚀 Features
 
-3. Установите зависимости:
-   \`\`\`bash
-   npm install
-   \`\`\`
+- Interactive circular navigation
+- Smooth animations and transitions
+- Responsive design (desktop, tablet, and mobile)
+- Event slider with dynamic content
+- Cross-browser compatibility
 
-4. Запустите проект:
-   \`\`\`bash
-   npm start
-   \`\`\`
+## 🛠 Tech Stack
 
-Проект будет доступен по адресу [http://localhost:3000](http://localhost:3000)
+- React.js
+- TypeScript
+- SASS/SCSS
+- Webpack
+- Swiper.js
+- GSAP
 
-## Структура проекта
+## 🏃‍♂️ Quick Start
 
-Проект организован по методологии Feature-Sliced Design:
+1. Clone the repository:
 
-- `app` - глобальные стили и провайдеры
-- `shared` - переиспользуемые компоненты и утилиты
-- `entities` - бизнес-сущности
-- `features` - интерактивные фичи
-- `widgets` - композиционный слой
-- `pages` - страницы приложения
+```bash
+git clone https://github.com/yourusername/historical-timeline.git
+```
 
-# Getting Started with Create React App
+2. Install dependencies:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```bash
+cd historical-timeline
+npm install
+```
 
-## Available Scripts
+3. Run development server:
 
-In the project directory, you can run:
+```bash
+npm start
+```
 
-### `npm start`
+4. Build for production:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm run build
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📱 Responsive Breakpoints
 
-### `npm test`
+- Desktop: 1024px and above
+- Tablet: 768px to 1023px
+- Mobile: below 768px
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤝 Contributing
 
-### `npm run build`
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📝 License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+MIT
 
 ## Learn More
 
