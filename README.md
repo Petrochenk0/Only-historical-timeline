@@ -1,36 +1,16 @@
-# Historical Timeline
+# Исторические даты
 
-Интерактивный блок с исторической временной шкалой, реализованный на React + TypeScript.
+Интерактивный таймлайн, демонстрирующий значимые исторические события с современным и привлекательным пользовательским интерфейсом.
 
-## Особенности
+## 🚀 Особенности
 
-- Круговая навигация по временным отрезкам
-- Слайдер с событиями для каждого временного периода
-- Адаптивный дизайн
-- Анимации с использованием GSAP
-- Слайдер реализован с помощью Swiper
+- Интерактивная круговая навигация
+- Плавные анимации и переходы
+- Адаптивный дизайн (десктоп, планшет и мобильные устройства)
+- Слайдер событий с динамическим контентом
+- Кроссбраузерная совместимость
 
-## Технологии
-
-- React
-- TypeScript
-- SCSS
-- GSAP
-- Swiper
-
-# Historical Timeline
-
-An interactive timeline showcasing significant historical events with a modern and engaging user interface.
-
-## 🚀 Features
-
-- Interactive circular navigation
-- Smooth animations and transitions
-- Responsive design (desktop, tablet, and mobile)
-- Event slider with dynamic content
-- Cross-browser compatibility
-
-## 🛠 Tech Stack
+## 🛠 Технологии
 
 - React.js
 - TypeScript
@@ -39,49 +19,25 @@ An interactive timeline showcasing significant historical events with a modern a
 - Swiper.js
 - GSAP
 
-## 🏃‍♂️ Quick Start
+## 🏃‍♂️ Быстрый старт
 
-1. Clone the repository:
-
+1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/yourusername/historical-timeline.git
 ```
 
-2. Install dependencies:
-
+2. Установите зависимости:
 ```bash
 cd historical-timeline
 npm install
 ```
 
-3. Run development server:
-
+3. Запустите сервер разработки:
 ```bash
 npm start
 ```
 
-4. Build for production:
-
+4. Сборка для продакшена:
 ```bash
 npm run build
 ```
-
-## 📱 Responsive Breakpoints
-
-- Desktop: 1024px and above
-- Tablet: 768px to 1023px
-- Mobile: below 768px
-
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📝 License
-
-MIT
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
